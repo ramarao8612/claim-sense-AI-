@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Node / frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Data (never commit raw datasets or secrets)
+data/raw/
+data/processed/
+*.csv
+*.pdf
+!data/scripts/*.py
+
+# Kaggle credentials
+.kaggle/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models / embeddings
+*.pkl
+*.joblib
+*.bin
+models/
